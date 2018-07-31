@@ -23,9 +23,9 @@ int main()
 	srand(time(NULL));
 	bool play_again = false;
 	vector<string> words = {"variable", "function", "object", "expression", "plus",
-													"pattern", "module", "debug", "integrated", "development",
-													"environment", "virtual", "input", "shift", "constructor",
-													"destructor", "syntax", "iterate", "procedure", "compiler"};
+				"pattern", "module", "debug", "integrated", "development",
+				"environment", "virtual", "input", "shift", "constructor",
+				"destructor", "syntax", "iterate", "procedure", "compiler"};
 
 	cout << "You are about to play Hangman." << endl;
 	cout << "You will see an underscore in place of every letter within the word" << endl;

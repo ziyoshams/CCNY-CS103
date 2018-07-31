@@ -81,8 +81,8 @@ int main()
 	{
 
 		print(maskVector);
-		cout << "\n\n"
-				 << endl;
+		cout << "\n\n";
+		cout << endl;
 
 		do
 		{
@@ -130,8 +130,9 @@ int main()
 			}
 			else
 			{
-				cout << "\a"
-						 << "Match" << endl;
+				cout << "\a";
+				cout << "Match";
+				cout << endl;
 				matchedPositions[firstSlot - 1] = true;
 				matchedPositions[secondSlot - 1] = true;
 				guessedPairCounter++;
